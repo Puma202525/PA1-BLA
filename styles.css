@@ -1,0 +1,125 @@
+:root {
+    --color-principal: #3498db;
+    --color-texto: #333;
+    --color-fondo: #f4f4f4;
+    --margen-base: 20px;
+} 
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+} 
+header {
+    background-color: var(--color-principal);
+    color: white;
+    text-align: center;
+    padding: var(--margen-base);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+nav {
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    background-color: var(--color-principal);
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--margen-base);
+}
+section {
+    background-color: white;
+    margin: var(--margen-base) 0;
+    padding: var(--margen-base);
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+h1, h2, h3 {
+    color: var(--color-principal);
+}
+
+h2 {
+    border-bottom: 2px solid var(--color-principal);
+    padding-bottom: 5px;
+}
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+strong {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+em {
+    color: var(--color-principal);
+    font-style: italic;
+}
+ul, ol {
+    padding-left: var(--margen-base);
+}
+
+ul li, ol li {
+    margin: 5px 0;
+}
+a {
+    color: var(--color-principal);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+a[target="_blank"] {
+    color: #27ae60;
+}
+
+a[target="_blank"]:hover {
+    color: #e74c3c;
+}
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: var(--margen-base);
+    margin-top: var(--margen-base);
+}
+
+footer p {
+    margin: 0;
+}
+main {
+    min-height: calc(100vh - 200px);
+}
+* {
+    box-sizing: border-box;
+}
